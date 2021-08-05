@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&family=Quicksand:wght@600;700&family=Roboto:wght@700;900&family=Russo+One&display=swap');
+
+
+
+:root {
+    --primary-color: #620097;
+    --nav-color: #B992FF;
+    --bcolor:#E9E1FF;
+  }
+body {
+    margin-top:none;
+    background-color: #E9E1FF;
+    margin: 0;
+    height: 100vh;
+}
+@media (min-width: 768px) {
+    #sideNav{
+        display: flex;
+        align-items:stretch;
+        justify-content:space-between;
+         height:100%; 
+         flex-flow: column;
+        position: fixed;
+        
+    }
+   
+}
+
+.row1{
+    flex: 1;
+    background-color: var(--nav-color);
+    text-align: center;
+    margin-right: 20px;
+    padding-top: 70px;
+    
+}
+
+
+#home{
+   
+    padding-left: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.row2{
+    flex: 1;
+    padding-top: 180px;
+}
+.row3{
+
+    flex: 1;
+    padding-top: 140px
+}
+#about{
+
+    padding-left: 250px;
+    padding-top:100px;
+    text-align: center;
+   
+    
+}
+#project{
+    padding-left: 250px;
+    padding-top:100px;
+    text-align: center;
+}
+
+#navHeading{
+    font-family:  'Roboto', sans-serif;
+    color:var(--bcolor);
+    font-size:  20px;
+}
+#navHeading span{
+    color:var(--primary-color);
+
+}
+#navList{
+    font-family: 'Noto Sans JP', sans-serif;
+   list-style-type: none;
+padding-top: 50px;
+padding-right: 30px;
+}
+.list{
+    padding-bottom: 10px;
+    color: var(--bcolor);
+
+}
+a{
+  text-decoration: none; 
+  color:inherit; 
+}
+a:hover{
+    color: #620097;
+}
+
+.first{
+    color: var(--primary-color);
+    font-family:'Noto Sans JP', sans-serif; 
+
+}
+.second{
+    font-family:  'Roboto', sans-serif;
+    font-size: 40px;
+    color:var(--primary-color);
+    text-shadow: 1px -1px grey;
+}
+.half{
+    color: #B992FF;
+    text-shadow: 1px -1px grey;
+}
+.last{
+    font-family:'Noto Sans JP', sans-serif; 
+    color: #B992FF;
+    text-shadow: 0px -1px grey;
+}
+i{
+    color: #E9E1FF;
+    padding-right:10px ;
+    font-size:17px;
+    
+}
+.contact{
+    padding-top: 180px;
+    padding-left: 15px;
+}
+.headings{
+    font-family:  'Roboto', sans-serif;
+    color:var(--primary-color);
+}
+.s{
+    display: grid;
+   grid-template-columns: 50% 50%;
+   
+  
+}
+
+.summary{
+    
+    color:#7b2cbf;
+    font-family:'Noto Sans JP', sans-serif; 
+    
+    text-align: left;
+    
+
+
+}
+.tech{
+    
+    padding-left: 50px;
+    font-family:'Noto Sans JP', sans-serif; 
+    color: var(--nav-color);
+     text-shadow: 0px -1px grey;
+     
+}
+.tech-stuff{
+    display: grid;
+    grid-template-columns: 20% 25% 20% 25%;
+    
+}
+.tech-stuff i{
+    padding-bottom: 15px;
+    text-align: center;
+}
+button {
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+  }
+  
+  button:hover {
+   
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+   
+  }
+  
+ 
+.btn-btn{
+    text-decoration: none;
+    padding:10 px;
+    width:100px;
+    font-family:'Noto Sans JP', sans-serif;
+    color:#E9E1FF;
+    font-size: 10px;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+    border-radius:5px;
+    outline:none;
+    background: linear-gradient(90deg,#755bea,#ff72c0 ); 
+}
+.img-s{
+    height:30px;
+    width:30px;
+    padding-bottom: 10px;
+    
+}
+.imgs{
+    display: grid;
+    grid-template-columns:20% 30% 20% 30% ;
+}
+.container{
+    display:grid;
+    grid-template-columns:33% 33% 33%;
+
+}
+.card{
+    display: grid;
+    grid-template-rows: 45% 50% 20% ;
+    padding:5px;
+    height: 350px;
+    background-color: var(--nav-color);
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    text-align: left;
+}
+.cardimg{
+    height:150px;
+   
+    padding-top: 5px;
+
+}
+.headingcard{
+    font-family:  'Roboto', sans-serif;
+    margin-top:2px;
+    color: var(--primary-color);
+}
+.cardp{
+    font-family:'Noto Sans JP', sans-serif;
+    color: var(--bcolor);
+    text-shadow: 0.5px -1px grey;
+}
+.btnn{
+    display: flex;
+    flex-direction: row;
+    height:100%;
+}
+.btnd{
+   flex: 1;
+}
+.b{
+    background-color: var(--primary-color);
+    height:100px;
+    border-radius:10px;
+    width:150px;
+
+}

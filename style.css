@@ -258,11 +258,12 @@ button {
 .blogbox{
     border-radius:20px;
     border: 2px solid #620097;
-    margin-top: 20px;
+    margin-top: 5px;
     width: 70%;
     display:flex;
     flex-direction: column;
     padding: 10px;
+    margin-bottom: 20px;
 }
 .blogbox h3{
     font-family:  'Roboto', sans-serif;
